@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <body>
+    <h1>Students</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>class</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>1</td>
+            <td>Dhanashri</td>
+            <td>Female</td>
+            <td rowspan="2">12th</td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Dipali</td>
+            <td>Female</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="4">Total:2</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
